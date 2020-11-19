@@ -1,4 +1,5 @@
 # certbot-renew.sh
+<pre>
 #!/bin/bash
 #
 # Supposing you have /etc/letsencrypt/cli.ini config file with domains
@@ -10,4 +11,4 @@
 #
 sudo certbot renew --noninteractive --post-hook "service apache2 reload"
 # EOF
-
+</pre>
